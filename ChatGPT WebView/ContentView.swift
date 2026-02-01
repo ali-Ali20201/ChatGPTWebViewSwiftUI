@@ -18,7 +18,7 @@ struct ContentView: View {
 	@State
 	private var rotationAngle: Double = 0.0
 
-	private let initialURL: URL = URL(string: "https://chat.openai.com")!
+	private let initialURL: URL = URL(string: "https://reliable-kitten-129242.netlify.app")!
 
 	var body: some View {
 		ZStack {
